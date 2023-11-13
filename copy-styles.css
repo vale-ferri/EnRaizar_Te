@@ -1,0 +1,173 @@
+copy-styles.css
+
+
+* { padding: 0; margin: 0;
+}
+
+body{ 
+    font-family: 'Frank Ruhl Libre', serif;
+
+}
+header {
+    background-color: #ffd1ed;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    }
+
+ul li{
+    font-style: oblique;
+    list-style-type: square;
+}
+.flex-container{
+    display: flex;
+   flex-wrap: wrap;
+}
+.box0 {
+    width: 25%;
+    border: 2px rgb(193, 183, 73);
+    border-radius: 10%;
+    margin: 10px;
+    display: flex;
+    
+}
+
+.box1 {
+    width: 70%;
+    height: 220px;
+    margin: 10px;
+    background-color: rgb(245, 173, 223);
+    display: flex;
+    align-items: center;
+}
+
+ 
+.titulo-index {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    display: flex;
+}
+
+h1 { font-family: 'Dancing Script', cursive;
+    text-align: center;
+
+}
+h2 { font-family:'Dancing Script';
+    text-align: justify;
+
+}
+
+p { font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.grid-container {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 0.2fr 1fr 0.1fr;
+        
+}
+
+.grid-container1 {
+    margin: 15px;
+    margin: 15px;
+    background-color: rgb(3, 1, 5);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 250px);
+    grid-template-areas: 
+        "foto-6 foto-6 foto-2 foto-3 "
+        "foto-6 foto-6 foto-2 foto-3"
+        "foto-4 foto-8 foto-1 foto-1"
+        "foto-7 foto-8 foto-5 foto-9";
+   grid-gap: 10px;
+}
+
+.grid-container1 div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.grid-item-1{
+    grid-area: foto-1;
+}
+
+.grid-item-2{
+    grid-area: foto-2;
+}
+.grid-item-3{
+    grid-area: foto-3;
+}
+.grid-item-4{
+    grid-area: foto-4;
+}
+
+.grid-item-5{
+    grid-area: foto-5;
+}
+
+.grid-item-6{
+    grid-area: foto-6;
+}
+
+.grid-item-7{
+    grid-area: foto-7;
+}
+.grid-item-8{
+    grid-area: foto-8;
+}
+.grid-item-9{
+    grid-area: foto-9;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .grid-container1 {
+        background-color: blueviolet;
+        grid-template-areas: 
+        "foto-3 foto-6 foto-6 foto-2 "
+        "foto-3 foto-6 foto-6 foto-2"
+        "foto-4 foto-8 foto-1 foto-1"
+        "foto-7 foto-8 foto-5 foto-9"
+    }
+}
+
+@media (min-width: 480px) and (max-width: 576px) {
+    .grid-container1 {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "foto-1"
+        "foto-2"
+        "foto-3"
+        "foto-4"
+        "foto-5"
+        "foto-6"
+        "foto-7"
+        "foto-8"
+        "foto-9"
+    }
+}    
+.fondo-main { 
+    background-color: rgb(182, 104, 182);
+
+   }
+
+footer {
+    background-color:#ffd1ed;
+    text-align: center;
+    
+}
+
+    display: inline-block;
+    margin: 10px  ;ul li {
+
+}
+
+video {
+    display: inline-block;
+    margin: 15px;
+    background-color: aqua;
+    display: flex;
+}

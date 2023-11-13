@@ -1,0 +1,26 @@
+
+@mixin botones ($colores, $background-color, $valor-text-aling,)
+ {
+    width: 150px;
+    height: 20px;
+    background-color: $background-color;
+    text-align: $valor-text-aling;
+    color: $colores;
+    border-radius: 5px;
+    border: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    :hover { background-color: pink;}
+        
+}
+
+.boton {
+    @include botones (rgb(240, 129, 240), rgb(236, 52, 221), center,)
+}
+.boton-cancelar {
+    @include botones (rgb(251, 132, 132), rgb(233, 233, 108), center)
+}
+.boton-flores {
+    @include botones (rgb(240, 240, 135), rgb(143, 143, 247), center) 
+
+}
+

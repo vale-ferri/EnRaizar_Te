@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:$color-principal;
+    justify-content:space-around;
+    align-items:flex-end;
+    
+    ul li { 
+    background-color: $color-principal;
+    display: inline-block;
+    font-style: oblique;
+    list-style-type: square;
+    margin: 10px;
+    :hover { background-color: pink;}
+    }
+}
+
