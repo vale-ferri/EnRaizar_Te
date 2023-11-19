@@ -1,0 +1,28 @@
+.animacion {
+    animation-name: animacion_1;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    
+}
+
+@keyframes animacion_1
+{
+        0% { 
+            background-image: radial-gradient(ellipse 100px 50px, pink, rgb(153, 26, 170) );
+        } 
+        50% { 
+            background-image: radial-gradient(ellipse 100px 50px, pink, rgb(153, 26, 170));
+ 
+         }
+
+        20% {
+            background-image: radial-gradient(ellipse 100px 50px, rgb(153, 26, 170), pink,);
+
+        }
+        100% { 
+            background-image: radial-gradient(ellipse 100px 50px, pink, rgb(153, 26, 170));
+ 
+         }
+  }

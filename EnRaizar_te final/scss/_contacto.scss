@@ -1,0 +1,24 @@
+
+.contacto {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 1% 2%;
+}
+    h1 { font-family: 'Dancing Script', cursive;
+        text-align: center;
+        margin: 2% 4%;           
+    }
+    h2 { font-family:'Dancing Script';
+        text-align: center; 
+        margin: 5px 0;
+    }
+    
+    p { font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+    }
+
